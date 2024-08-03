@@ -27,7 +27,7 @@ const navLinks: NavLink[] = [
 export function MainNav() {
   return (
     <nav>
-      <ul className="flex items-center gap-1">
+      <ul className="flex items-center gap-2">
         {navLinks.map((params, index) => (
           <li key={index}>
             <Link

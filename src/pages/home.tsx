@@ -5,7 +5,7 @@ export function Home() {
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto space-y-5">
       <a
         href="https://www.linkedin.com/in/lucas-anselmo-543636161/"
-        className="w-full p-3 flex items-center justify-between border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
+        className="w-full p-3 flex items-center justify-between text-neutral-800 border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
         target="_blank"
       >
         <span className="flex items-center gap-4 text-base font-nunito font-normal">
@@ -29,7 +29,7 @@ export function Home() {
       </a>
       <a
         href="https://github.com/LucasAnselmoSilva12345"
-        className="w-full p-3 flex items-center justify-between border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
+        className="w-full p-3 flex items-center justify-between text-neutral-800 border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
         target="_blank"
       >
         <span className="flex items-center gap-4 text-base font-nunito font-normal">
@@ -53,7 +53,7 @@ export function Home() {
       </a>
       <a
         href="https://x.com/LucasAnselmo202"
-        className="w-full p-3 flex items-center justify-between border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
+        className="w-full p-3 flex items-center justify-between text-neutral-800 border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
         target="_blank"
       >
         <span className="flex items-center gap-4 text-base font-nunito font-normal">
@@ -77,7 +77,7 @@ export function Home() {
       </a>
       <a
         href="https://www.instagram.com/lucas_anselmo2025/"
-        className="w-full p-3 flex items-center justify-between border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
+        className="w-full p-3 flex items-center justify-between text-neutral-800 border rounded-sm border-neutral-400 transition-all duration-200 ease-in-out hover:bg-slate-100"
         target="_blank"
       >
         <span className="flex items-center gap-4 text-base font-nunito font-normal">

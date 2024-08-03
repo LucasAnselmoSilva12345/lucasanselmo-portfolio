@@ -23,7 +23,7 @@ const footerLink: FooterLink[] = [
 
 export function Footer() {
   return (
-    <footer className="w-full mt-6 mb-0 md:max-w-3xl md:mx-auto grid grid-cols-2">
+    <footer className="w-full mt-6 mb-0 md:max-w-3xl md:mx-auto flex justify-between">
       <div>
         <ul className="space-y-3">
           {footerLink.map((params, index) => (
@@ -56,7 +56,7 @@ export function Footer() {
         <a
           href={cvPdfFile}
           download="CV_Lucas_Anselmo"
-          className="w-full p-4 flex items-center justify-between text-base font-nunito font-bold rounded bg-neutral-900 text-neutral-200 transition-all duration-200 ease-in-out hover:opacity-75"
+          className="w-full p-4 flex items-center justify-between gap-3 text-base font-nunito font-bold rounded bg-neutral-900 text-neutral-200 transition-all duration-200 ease-in-out hover:opacity-75"
         >
           Download my CV
           <svg
