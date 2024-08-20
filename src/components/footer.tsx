@@ -12,7 +12,7 @@ const footerLink: FooterLink[] = [
     label: 'Explore my projects',
   },
   {
-    to: '/article',
+    to: '/articles',
     label: 'Read my articles',
   },
   {

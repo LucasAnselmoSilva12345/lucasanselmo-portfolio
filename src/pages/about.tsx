@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto">
-      <h1 className="mb-4 text-lg font-nunito font-bold">About</h1>
+      <h2 className="mb-4 text-lg font-nunito font-bold">About</h2>
       <p className="mb-2 text-base font-nunito font-normal text-neutral-700">
         Front-end JavaScript and React software developer. With three years of
         experience, he has worked in startups in various segments with diverse

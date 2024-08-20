@@ -11,7 +11,7 @@ export function ProjectCard({
   return (
     <div className="mt-8">
       <div className="flex items-center justify-between">
-        <h2 className="text-base font-nunito font-medium">{title}</h2>
+        <h3 className="text-base font-nunito font-medium">{title}</h3>
         <div className="flex items-center gap-3">
           {technologies.map((tech, index) => (
             <span
