@@ -16,8 +16,8 @@ const footerLink: FooterLink[] = [
     label: 'Read my articles',
   },
   {
-    to: '/about',
-    label: 'Get to know me',
+    to: '/social-networks',
+    label: 'My Social Networks',
   },
 ];
 
@@ -75,7 +75,7 @@ export function Footer() {
           </svg>
         </a>
         <span className="block mt-3 text-sm font-nunito font-light italic text-center text-neutral-500">
-          It's only two pages.
+          It's only one page.
         </span>
       </div>
     </footer>

@@ -7,20 +7,16 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
   {
-    to: '',
-    label: 'Home',
-  },
-  {
-    to: '/about',
-    label: 'About',
-  },
-  {
     to: '/projects',
     label: 'Projects',
   },
   {
     to: '/articles',
     label: 'Articles',
+  },
+  {
+    to: '/social-networks',
+    label: 'Networks',
   },
 ];
 

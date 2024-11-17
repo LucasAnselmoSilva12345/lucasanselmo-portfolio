@@ -9,9 +9,9 @@ export function ProjectCard({
   links,
 }: IProjectsData) {
   return (
-    <div className="mt-8">
-      <div className="flex items-center justify-between">
-        <h3 className="text-base font-nunito font-medium">{title}</h3>
+    <div className="mt-6">
+      <div className="flex flex-col gap-2">
+        <h3 className="text-base font-nunito font-semibold">{title}</h3>
         <div className="flex items-center gap-3">
           {technologies.map((tech, index) => (
             <span
@@ -23,11 +23,11 @@ export function ProjectCard({
           ))}
         </div>
       </div>
-      <a href="block w-full">
+      <a className="block w-full">
         <img src={image.src} alt={image.alt} className="my-4 rounded-lg" />
       </a>
 
-      <p className="w-full text-base text-zinc-700 font-nunito">
+      <p className="w-full text-base text-zinc-700 font-nunito line-clamp-3">
         {description}
       </p>
       <div className="w-full mt-4 flex items-center gap-4">
