@@ -17,7 +17,7 @@ export function Networks() {
         </p>
       </div>
 
-      <ExternalLinkButton.Root href="https://www.linkedin.com/in/lucas-anselmo-543636161/">
+      <ExternalLinkButton.Root href="https://www.linkedin.com/in/lucas-anselmo-desenvolvedor/">
         <ExternalLinkButton.Control>
           <LinkedInIcon />
           <span className="font-nunito font-semibold">Linkedin</span>

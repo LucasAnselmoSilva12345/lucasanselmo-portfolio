@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import cvPdfFile from '../assets/files/CV_Lucas_Anselmo_Silva.pdf';
+import cvPdfFile from '../assets/files/CURRICULO-LUCAS-ANSELMO-DESENVOLVEDOR-FRONT-END.pdf';
 
 interface FooterLink {
   to: string;
