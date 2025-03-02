@@ -1,7 +1,7 @@
 export function ProfileOverview() {
   return (
     <div className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto">
-      <h2 className="mb-2 text-lg font-nunito font-bold">About Me</h2>
+      <h2 className="mb-2 text-lg font-nunito font-semibold">About Me</h2>
       <p className="mb-2 text-base font-nunito font-normal text-neutral-700">
         Tech Lead with solid experience in front-end software development,
         specializing in JavaScript and TypeScript, using modern frameworks like
