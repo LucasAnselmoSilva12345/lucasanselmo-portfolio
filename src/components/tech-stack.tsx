@@ -1,4 +1,4 @@
-import { TechnologiesImageGallery } from './technologies-image-gallery';
+import { Technologies } from './technologies';
 
 export function TechStack() {
   return (
@@ -6,7 +6,7 @@ export function TechStack() {
       <h2 className="mb-4 text-lg font-nunito font-bold">
         The Technology Stack that Enhances My Workflow
       </h2>
-      <TechnologiesImageGallery />
+      <Technologies />
     </div>
   );
 }
