@@ -6,7 +6,7 @@ export function Articles() {
   return (
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto space-y-5">
       <div>
-        <h2 className="text-lg font-nunito font-bold">Articles</h2>
+        <h2 className="text-lg font-nunito font-semibold">Articles</h2>
         <p className="text-sm font-nunito font-normal text-neutral-700">
           Check out my scientific initiation and thesis articles, featuring
           research and discoveries in development!

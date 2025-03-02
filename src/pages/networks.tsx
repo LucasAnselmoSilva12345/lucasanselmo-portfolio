@@ -10,7 +10,7 @@ export function Networks() {
   return (
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto space-y-5">
       <div>
-        <h2 className="text-lg font-nunito font-bold">Social Networks</h2>
+        <h2 className="text-lg font-nunito font-semibold">Social Networks</h2>
         <p className="text-sm font-nunito font-normal text-neutral-700">
           Follow me on social media and stay updated on my work in development,
           technology, and more!
