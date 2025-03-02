@@ -3,32 +3,25 @@ export function ProfileOverview() {
     <div className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto">
       <h2 className="mb-2 text-lg font-nunito font-bold">About Me</h2>
       <p className="mb-2 text-base font-nunito font-normal text-neutral-700">
-        I am a Tech Lead with solid experience in front-end software
-        development, specializing in JavaScript and TypeScript, using frameworks
-        like React and Next.js. Over the past three years, I have worked at
-        startups across different industries, building responsive and accessible
-        web applications, always integrating unit and integration tests to
-        ensure high-quality projects.
+        Tech Lead with solid experience in front-end software development,
+        specializing in JavaScript and TypeScript, using modern frameworks like
+        React and Next.js. My background includes creating highly responsive and
+        accessible web applications, ensuring an optimized user experience
+        across different devices and browsers.
       </p>
       <p className="mb-2 text-base font-nunito font-normal text-neutral-700">
-        My education includes a Bachelor's degree in Computer Science from IFSP
-        Campus Salto and a technical degree in IT from Etec Martinho Di Ciero.
-        Currently, I am a Tech Lead and Software Developer at a startup, where I
-        lead the development and documentation of a front-end e-commerce
-        project. In addition to my technical skills, I have experience leading
-        teams, applying agile methodologies to optimize processes and deliver
-        effective results.
+        I have extensive experience integrating unit and integration tests,
+        ensuring the quality and reliability of the final product. My focus is
+        always on developing solutions that meet accessibility and performance
+        standards, delivering products that positively impact users and
+        businesses.
       </p>
 
       <p className="text-base font-nunito font-normal text-neutral-700">
-        I am committed to open-source principles and maintain personal and
-        open-source projects on my{' '}
-        <a
-          href="https://github.com/LucasAnselmoSilva12345/"
-          className="font-semibold text-sky-700 underline decoration-sky-700 decoration-1 underline-offset-1"
-        >
-          GitHub profile.
-        </a>
+        In addition to technical skills, I have strong leadership and team
+        coordination abilities, applying agile methodologies such as Scrum and
+        Kanban. This allows for the optimization of development processes and
+        ensures the delivery of effective results within established deadlines.
       </p>
     </div>
   );
