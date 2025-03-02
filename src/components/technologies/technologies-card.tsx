@@ -5,9 +5,9 @@ interface TechnologiesCardProps {
 
 export function TechnologiesCard({ icon, name }: TechnologiesCardProps) {
   return (
-    <div className="p-6 flex flex-col items-center gap-2 justify-center rounded-xl border border-slate-900 text-slate-900">
+    <div className="py-3 flex items-center justify-center gap-1.5 rounded-xl border border-slate-900 text-slate-900">
       {icon}
-      <span className="font-nunito font-bold">{name}</span>
+      <span className="text-base font-nunito font-bold">{name}</span>
     </div>
   );
 }
