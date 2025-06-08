@@ -11,17 +11,17 @@ const navLinks: NavLink[] = [
   {
     id: uuidv4(),
     to: '/projects',
-    label: 'Projects',
+    label: 'Projetos',
   },
   {
     id: uuidv4(),
     to: '/articles',
-    label: 'Articles',
+    label: 'Artigos',
   },
   {
     id: uuidv4(),
     to: '/social-networks',
-    label: 'Networks',
+    label: 'Redes Sociais',
   },
 ];
 

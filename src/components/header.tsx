@@ -15,7 +15,7 @@ export function Header() {
           </h1>
 
           <p className="text-sm text-neutral-700 font-nunito font-medium">
-            Front-end Software Developer
+            Desenvolvedor Front-end
           </p>
         </div>
       </div>

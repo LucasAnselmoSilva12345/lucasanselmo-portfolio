@@ -9,15 +9,15 @@ interface FooterLink {
 const footerLink: FooterLink[] = [
   {
     to: '/projects',
-    label: 'Explore my projects',
+    label: 'Projetos',
   },
   {
     to: '/articles',
-    label: 'Read my articles',
+    label: 'Artigos',
   },
   {
     to: '/social-networks',
-    label: 'My Social Networks',
+    label: 'Redes Sociais',
   },
 ];
 
@@ -58,7 +58,7 @@ export function Footer() {
           download="CV_Lucas_Anselmo"
           className="w-full p-4 flex items-center justify-between gap-3 text-base font-nunito font-bold rounded bg-neutral-900 text-neutral-200 transition-all duration-200 ease-in-out hover:opacity-75"
         >
-          Download my CV
+          Baixar Currículo
           <svg
             width="20"
             height="20"
@@ -74,9 +74,6 @@ export function Footer() {
             ></path>
           </svg>
         </a>
-        <span className="block mt-3 text-sm font-nunito font-light italic text-center text-neutral-500">
-          It's only one page.
-        </span>
       </div>
     </footer>
   );
