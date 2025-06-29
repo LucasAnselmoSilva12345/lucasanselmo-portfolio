@@ -30,7 +30,7 @@ export function Card({
           </div>
         </div>
 
-        <p className="w-full text-sm text-zinc-700 font-nunito line-clamp-6">
+        <p className="w-full text-sm text-zinc-700 font-nunito line-clamp-2">
           {description}
         </p>
 
