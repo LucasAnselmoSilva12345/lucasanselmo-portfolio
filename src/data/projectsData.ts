@@ -3,13 +3,13 @@ import { IProjectsData } from '../utils/IProject';
 export const projectProduction: IProjectsData[] = [
   {
     title: 'Sofá na Caixa',
-    technologies: ['Shopify', 'JavaScript'],
+    technologies: ['React', 'Shopify', 'TypeScript'],
     image: {
       src: 'https://live.staticflickr.com/65535/54575879240_e3c6d405ee_c.jpg',
       alt: 'Homepage da Sofá na Caixa',
     },
     description:
-      'E-commerce especializado na venda de sofás compactados em caixas, focado em praticidade, design e entrega descomplicada. Atuei no desenvolvimento e na evolução contínua da plataforma, implementando novas funcionalidades no front-end com foco em performance, SEO e experiência do usuário. Realizei a reestruturação visual de páginas estratégicas para otimizar o funil de conversão e facilitar a navegação. Também contribuí na liderança técnica da equipe, coordenando entregas e adotando metodologias ágeis para garantir produtividade e qualidade nas entregas.',
+      'E-commerce especializado na venda de sofás compactados em caixas, focado em praticidade, design e entrega descomplicada.',
     links: [
       {
         label: 'Ver Site',
@@ -20,13 +20,13 @@ export const projectProduction: IProjectsData[] = [
   },
   {
     title: 'Eco Flame Garden',
-    technologies: ['Shopify', 'JavaScript'],
+    technologies: ['React', 'Shopify', 'TypeScript'],
     image: {
       src: 'https://live.staticflickr.com/65535/54575542971_890cb47978_c.jpg',
       alt: 'Homepage da Eco Flame Garden',
     },
     description:
-      'E-commerce especializado em móveis de alto padrão para áreas externas. Atuei no desenvolvimento e na evolução contínua da interface, garantindo responsividade e fluidez na navegação. Implementei estratégias de SEO técnico e estrutural para melhorar o posicionamento da marca em buscadores. Também contribuí com melhorias visuais e de usabilidade, focando em destacar a estética sofisticada dos produtos e facilitar a jornada de compra em dispositivos móveis e desktop.',
+      'E-commerce especializado em móveis de alto padrão para áreas externas.',
     links: [
       {
         label: 'Ver Site',
@@ -37,13 +37,13 @@ export const projectProduction: IProjectsData[] = [
   },
   {
     title: 'Little Duck',
-    technologies: ['Shopify', 'JavaScript'],
+    technologies: ['React', 'Shopify', 'TypeScript'],
     image: {
       src: 'https://live.staticflickr.com/65535/54575731439_3625a74acd_c.jpg',
       alt: 'Homepage da Little Duck',
     },
     description:
-      'Loja virtual voltada para o público infantil, com foco em uma experiência acolhedora e intuitiva. Neste projeto, desenvolvi componentes visuais interativos com React e Next.js, garantindo performance e acessibilidade. Conduzi testes A/B para validação de funcionalidades e melhorias no fluxo de navegação. Trabalhei também na otimização de SEO e estrutura semântica das páginas, contribuindo para o aumento do tráfego orgânico e melhorando a taxa de conversão do site.',
+      'Loja virtual voltada para o público infantil, com foco em uma experiência acolhedora e intuitiva.',
     links: [
       {
         label: 'Ver Site',
@@ -54,13 +54,13 @@ export const projectProduction: IProjectsData[] = [
   },
   {
     title: 'Be.Oliver',
-    technologies: ['Shopify', 'JavaScript'],
+    technologies: ['React', 'Shopify', 'TypeScript'],
     image: {
       src: 'https://live.staticflickr.com/65535/54574677592_d6f2da99a1_c.jpg',
       alt: 'Homepage da Be.Oliver',
     },
     description:
-      'E-commerce de sofás e poltronas minimalistas, com foco em design limpo e experiência premium. Atuei no desenvolvimento da interface, estruturação da arquitetura de páginas e otimização da performance com tecnologias como React, TypeScript e Tailwind CSS. Fui responsável por ajustes em acessibilidade, melhorias em SEO e pela adaptação da comunicação visual ao posicionamento de marca. O projeto foi pensado para transmitir sofisticação e praticidade, desde a navegação até a finalização da compra.',
+      'E-commerce de sofás e poltronas minimalistas, com foco em design limpo e experiência premium.',
     links: [
       {
         label: 'Ver Site',
@@ -73,67 +73,45 @@ export const projectProduction: IProjectsData[] = [
 
 export const projectPersonal: IProjectsData[] = [
   {
-    title: 'John Text List',
+    title: 'Fit Feed',
     technologies: ['React.JS', 'TypeScript', 'ShadcnUI'],
     image: {
-      src: 'https://live.staticflickr.com/65535/53917583065_fb5c68ceb5_o.png',
+      src: 'https://live.staticflickr.com/65535/54620880547_efc2694480_c.jpg',
       alt: 'GitHub Logo',
     },
     description:
-      'Este é um aplicativo web de lista de tarefas, responsável por ajudar você a organizar sua rotina de afazeres que precisam ser realizados ao longo do dia.',
+      'Fit Feed é uma aplicação que permite aos usuários compartilhar suas rotinas de treino, dietas e informações relacionadas ao universo fitness',
     links: [
       {
         label: 'Ver Código',
-        url: 'https://github.com/LucasAnselmoSilva12345/John-Task-List',
+        url: 'https://github.com/LucasAnselmoSilva12345/fit-feed',
         iconClassName: 'text-sky-700',
       },
       {
         label: 'Ver Site',
-        url: 'https://john-task-list.pages.dev/',
+        url: 'https://fit-feed.pages.dev/',
         iconClassName: 'text-sky-700',
       },
     ],
   },
   {
-    title: 'Rest Countries In The World',
+    title: 'Food Recipe',
     technologies: ['React.JS', 'TypeScript', 'TailwindCSS'],
     image: {
-      src: 'https://live.staticflickr.com/65535/53917583065_fb5c68ceb5_o.png',
+      src: 'https://live.staticflickr.com/65535/54620880587_e53cf7bac0_c.jpg',
       alt: 'GitHub Logo',
     },
     description:
-      'O objetivo deste projeto é exibir todos os países do mundo por meio de cards individuais que mostram suas respectivas bandeiras, nomes, capitais, população total e continente.',
+      'Food-Recipe: Seu destino ideal para uma extensa coleção de receitas diversas. Explore um mundo de delícias culinárias, de pratos gourmet a opções saudáveis. Encontre inspiração para cada refeição e ocasião. Descubra, cozinhe e saboreie criações deliciosas hoje mesmo!',
     links: [
       {
         label: 'Ver Código',
-        url: 'https://github.com/LucasAnselmoSilva12345/restCountriesInTheWorld',
+        url: 'https://github.com/LucasAnselmoSilva12345/food-recipe',
         iconClassName: 'text-sky-700',
       },
       {
         label: 'Ver Site',
-        url: 'https://restcountriesintheworld.pages.dev/',
-        iconClassName: 'text-sky-700',
-      },
-    ],
-  },
-  {
-    title: 'Hero Hub',
-    technologies: ['React.JS', 'TypeScript', 'TailwindCSS'],
-    image: {
-      src: 'https://live.staticflickr.com/65535/53917583065_fb5c68ceb5_o.png',
-      alt: 'GitHub Logo',
-    },
-    description:
-      'HeroHub foi criado para entusiastas de super-heróis, sejam eles novatos no universo dos quadrinhos ou veteranos de longa data. Aqui, a cada clique, você descobre um verdadeiro tesouro de informações detalhadas sobre uma infinidade de personagens lendários. Desde ícones clássicos até os mais recentes, todos os quadrinistas têm seu lugar neste catálogo completo.',
-    links: [
-      {
-        label: 'Ver Código',
-        url: 'https://github.com/LucasAnselmoSilva12345/hero-hub',
-        iconClassName: 'text-sky-700',
-      },
-      {
-        label: 'Ver Site',
-        url: 'https://github.com/LucasAnselmoSilva12345/hero-hub',
+        url: 'https://food-recipe.pages.dev/',
         iconClassName: 'text-sky-700',
       },
     ],
@@ -142,7 +120,7 @@ export const projectPersonal: IProjectsData[] = [
     title: 'Social Pets',
     technologies: ['React.JS', 'JavaScript'],
     image: {
-      src: 'https://live.staticflickr.com/65535/53917583065_fb5c68ceb5_o.png',
+      src: 'https://live.staticflickr.com/65535/54621962774_e52f7a33db_c.jpg',
       alt: 'GitHub Logo',
     },
     description:
@@ -156,6 +134,28 @@ export const projectPersonal: IProjectsData[] = [
       {
         label: 'Ver Site',
         url: 'https://social-pets.pages.dev/',
+        iconClassName: 'text-sky-700',
+      },
+    ],
+  },
+  {
+    title: 'John Text List',
+    technologies: ['React.JS', 'TypeScript', 'ShadcnUI'],
+    image: {
+      src: 'https://live.staticflickr.com/65535/54620880542_a3dbfcfb60_c.jpg',
+      alt: 'GitHub Logo',
+    },
+    description:
+      'Este é um aplicativo web de lista de tarefas, responsável por ajudar você a organizar sua rotina de afazeres que precisam ser realizados ao longo do dia.',
+    links: [
+      {
+        label: 'Ver Código',
+        url: 'https://github.com/LucasAnselmoSilva12345/John-Task-List',
+        iconClassName: 'text-sky-700',
+      },
+      {
+        label: 'Ver Site',
+        url: 'https://john-task-list.pages.dev/',
         iconClassName: 'text-sky-700',
       },
     ],

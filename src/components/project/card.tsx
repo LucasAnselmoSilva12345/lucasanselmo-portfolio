@@ -37,6 +37,7 @@ export function Card({
         <div className="w-full flex items-center gap-4">
           {links.map((link, index) => (
             <a
+              target="_blank"
               key={index}
               href={link.url}
               className="flex items-center gap-1 text-base font-nunito font-light underline decoration-sky-700 decoration-1 underline-offset-1"
