@@ -1,7 +1,7 @@
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
-import { IProjectsData } from '../utils/IProject';
+import { IProjectsData } from '../../utils/IProject';
 
-export function ProjectCard({
+export function Card({
   title,
   technologies,
   image,
@@ -30,13 +30,14 @@ export function ProjectCard({
           </div>
         </div>
 
-        <p className="w-full text-sm text-zinc-700 font-nunito line-clamp-6">
+        <p className="w-full text-sm text-zinc-700 font-nunito line-clamp-2">
           {description}
         </p>
 
         <div className="w-full flex items-center gap-4">
           {links.map((link, index) => (
             <a
+              target="_blank"
               key={index}
               href={link.url}
               className="flex items-center gap-1 text-base font-nunito font-light underline decoration-sky-700 decoration-1 underline-offset-1"

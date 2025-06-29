@@ -1,4 +1,4 @@
-import { ProjectList } from '../components/project-list';
+import { List } from '../components/project';
 
 export function Project() {
   return (
@@ -13,7 +13,7 @@ export function Project() {
           do usuário.
         </p>
       </div>
-      <ProjectList />
+      <List />
     </section>
   );
 }
