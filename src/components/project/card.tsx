@@ -1,7 +1,7 @@
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
 import { IProjectsData } from '../../utils/IProject';
 
-export function ProjectCard({
+export function Card({
   title,
   technologies,
   image,
