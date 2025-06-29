@@ -1,4 +1,4 @@
-import { ProjectList } from '../components/project-list';
+import { ProjectList } from '../components/project/project-list';
 
 export function Project() {
   return (
