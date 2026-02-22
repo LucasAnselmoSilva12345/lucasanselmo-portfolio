@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { MainNav } from './main-nav';
 import { LanguageSwitcher } from './language-switcher';
 
@@ -15,7 +16,7 @@ export function Header() {
         />
         <div>
           <h1 className="text-base font-nunito font-bold">
-            <a href="/">Lucas Anselmo</a>
+            <Link to="/">Lucas Anselmo</Link>
           </h1>
 
           <p className="text-sm text-neutral-700 font-nunito font-medium">

@@ -1,16 +1,38 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const supportedLanguages = ['pt-BR', 'en'];
+const supportedLanguages = ['pt-BR', 'en'] as const;
+const STORAGE_KEY = 'i18nextLng';
 
 export function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
 
-  const currentLanguage = supportedLanguages.includes(i18n.language)
-    ? i18n.language
-    : i18n.language.split('-')[0];
+  const normalizeLanguage = (lng: string) => {
+    if (supportedLanguages.includes(lng as any)) return lng;
+
+    const base = lng.split('-')[0];
+    return supportedLanguages.includes(base as any) ? base : 'en';
+  };
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem(STORAGE_KEY);
+
+    if (savedLanguage) {
+      const normalized = normalizeLanguage(savedLanguage);
+
+      if (normalized !== i18n.language) {
+        i18n.changeLanguage(normalized);
+      }
+    }
+  }, []);
+
+  const currentLanguage = normalizeLanguage(i18n.language);
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    i18n.changeLanguage(event.target.value);
+    const selectedLanguage = event.target.value;
+
+    i18n.changeLanguage(selectedLanguage);
+    localStorage.setItem(STORAGE_KEY, selectedLanguage);
   };
 
   return (
