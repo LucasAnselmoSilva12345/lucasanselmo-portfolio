@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { CookieIcon, RocketIcon } from '@radix-ui/react-icons';
 import { Button } from './button';
 
@@ -7,6 +8,7 @@ type ITabs = {
 };
 
 export function Tabs({ selected, onChange }: ITabs) {
+  const { t } = useTranslation();
   return (
     <div className="flex items-center justify-center gap-4 mb-3">
       <Button
@@ -14,14 +16,14 @@ export function Tabs({ selected, onChange }: ITabs) {
         onClick={() => onChange('production')}
       >
         <RocketIcon />
-        Profissionais
+        {t('projects.professional')}
       </Button>
       <Button
         isActive={selected === 'personal'}
         onClick={() => onChange('personal')}
       >
         <CookieIcon />
-        Pessoais
+        {t('projects.personal')}
       </Button>
     </div>
   );

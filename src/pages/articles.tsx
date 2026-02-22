@@ -1,15 +1,19 @@
+import { useTranslation } from 'react-i18next';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
 import * as ExternalLinkButton from '../components/external-link-button';
 import { ReaderIcon } from '../components/network-icons/reader';
 
 export function Articles() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto space-y-5">
       <div>
-        <h2 className="text-lg font-nunito font-semibold">Artigos</h2>
+        <h2 className="text-lg font-nunito font-semibold">
+          {t('articles.title')}
+        </h2>
         <p className="text-sm font-nunito font-normal text-neutral-700">
-          Acesse meus artigos de iniciação científica e trabalho de conclusão de
-          curso, com foco em pesquisas na área de desenvolvimento.
+          {t('articles.description')}
         </p>
       </div>
       <div className="space-y-5">

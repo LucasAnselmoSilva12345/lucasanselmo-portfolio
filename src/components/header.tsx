@@ -1,6 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import { MainNav } from './main-nav';
+import { LanguageSwitcher } from './language-switcher';
 
 export function Header() {
+  const { t } = useTranslation();
+
   return (
     <header className="w-full md:max-w-3xl md:my-0 md:mx-auto flex items-center justify-between">
       <div className="flex items-start gap-x-2">
@@ -15,12 +19,13 @@ export function Header() {
           </h1>
 
           <p className="text-sm text-neutral-700 font-nunito font-medium">
-            Desenvolvedor Front-end
+            {t('header.position')}
           </p>
         </div>
       </div>
 
       <MainNav />
+      <LanguageSwitcher />
     </header>
   );
 }

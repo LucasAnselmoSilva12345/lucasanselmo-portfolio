@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import cvPdfFile from '../assets/files/CURRICULO-LUCAS-ANSELMO-DESENVOLVEDOR-FRONT-END.pdf';
 import { Download } from '../assets/svg/download';
@@ -10,19 +11,21 @@ interface FooterLink {
 const footerLink: FooterLink[] = [
   {
     to: '/projects',
-    label: 'Projetos',
+    label: 'footer.projects',
   },
   {
     to: '/articles',
-    label: 'Artigos',
+    label: 'footer.articles',
   },
   {
     to: '/social-networks',
-    label: 'Redes Sociais',
+    label: 'footer.social_network',
   },
 ];
 
 export function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full mt-6 mb-0 md:max-w-3xl md:mx-auto flex justify-between">
       <div>
@@ -33,7 +36,7 @@ export function Footer() {
                 to={params.to}
                 className="text-base font-nunito font-light transition-all duration-200 ease-in-out hover:underline hover:decoration-sky-700 hover:decoration-1 hover:underline-offset-1"
               >
-                {params.label}
+                {t(params.label)}
               </Link>
               <svg
                 width="15"
@@ -59,7 +62,7 @@ export function Footer() {
           download="CURRICULO-LUCAS-ANSELMO-DESENVOLVEDOR-FRONT-END"
           className="w-full p-4 flex items-center justify-between gap-3 text-base font-nunito font-bold rounded bg-neutral-900 text-neutral-200 transition-all duration-200 ease-in-out hover:opacity-75"
         >
-          Baixar Currículo
+          {t('curriculum.title')}
           <Download />
         </a>
       </div>
