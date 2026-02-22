@@ -33,13 +33,11 @@ export function Header() {
           </div>
         </div>
 
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-6">
           <MainNav />
           <LanguageSwitcher />
         </div>
 
-        {/* Mobile Button */}
         <button
           onClick={() => setIsOpen(true)}
           className="md:hidden"
@@ -49,7 +47,6 @@ export function Header() {
         </button>
       </header>
 
-      {/* Backdrop */}
       <div
         onClick={closeMenu}
         className={`fixed inset-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300 z-40 md:hidden ${
@@ -57,13 +54,11 @@ export function Header() {
         }`}
       />
 
-      {/* Mobile Drawer */}
       <aside
         className={`fixed top-0 right-0 h-full w-full bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden flex flex-col ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        {/* Top */}
         <div className="flex items-center justify-between p-6 border-b">
           <div className="flex items-center gap-2">
             <img
@@ -87,7 +82,6 @@ export function Header() {
           </button>
         </div>
 
-        {/* Navigation */}
         <div className="flex-1 flex flex-col justify-between p-6">
           <nav
             className="flex flex-col gap-6 text-lg font-medium"
@@ -96,7 +90,6 @@ export function Header() {
             <MainNav />
           </nav>
 
-          {/* Language Switcher no final */}
           <div className="pt-6 border-t">
             <LanguageSwitcher />
           </div>
