@@ -1,0 +1,55 @@
+{
+  "header": {
+    "position": "Front-end Developer",
+    "projects": "Projects",
+    "articles": "Articles"
+  },
+  "profile": {
+    "title": "Professional Profile",
+    "paragraph_initial": "I am a Front-end Developer specialized in React, TypeScript, and Next.js, with experience building modern, responsive, and accessible web applications. I focus on delivering high-performance interfaces by applying best development practices, clean code principles, testing strategies, and user experience optimization.",
+    "paragraph_secondary": "I currently work as a Tech Lead, combining technical leadership with hands-on front-end development. I actively contribute to daily coding, code reviews, and architectural decision-making. I also represent the team in strategic meetings, communicate progress clearly, and explain technical implementations — especially in Shopify-based projects.",
+    "paragraph_third": "My key strengths are organization and clear communication, which enhance cross-functional collaboration and ensure efficient workflows. I strive to combine technical excellence, empathy, and purpose to deliver scalable, impactful digital products."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "In this section, I present both professional and personal projects developed as a Front-end Developer and Tech Lead in real production environments. All projects were built with a strong focus on performance, SEO, accessibility, and user experience.",
+    "professional": "Professional",
+    "personal": "Personal",
+    "code": "View Code",
+    "preview": "Live Preview",
+    "project_professional": {
+      "sofa_description": "E-commerce platform specialized in compressed sofas delivered in boxes, focused on convenience, design, and seamless delivery experience.",
+      "eco_description": "High-end outdoor furniture e-commerce platform, prioritizing sophistication, durability, and premium presentation.",
+      "ld_description": "Online store designed for the children's market, focused on delivering a welcoming, intuitive, and safe shopping experience.",
+      "be_description": "Minimalist sofas and armchairs e-commerce platform, centered on clean design and a premium user experience."
+    },
+    "project_personal": {
+      "fit_description": "Fit Feed is an application that allows users to share workout routines, diets, and health-related content in an interactive way.",
+      "food_description": "Food Recipe is an application designed to explore a wide collection of recipes, providing a practical and inspiring cooking experience.",
+      "social_description": "Social Pets is a platform where pet owners can share photos and interact with other pet lovers.",
+      "john_description": "A web-based task management application designed to help users organize their routines and efficiently manage daily activities."
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "description": "Access my scientific research papers and final graduation project, focused on technology and software development research."
+  },
+  "social_network": {
+    "title": "Social Media",
+    "description": "Follow my work on social media and stay updated on development, technology, and ongoing projects."
+  },
+  "technologies": {
+    "title": "Technologies that Power My Work"
+  },
+  "common": {
+    "change_language": "Change Language"
+  },
+  "curriculum": {
+    "title": "Download Resume"
+  },
+  "footer": {
+    "projects": "Projects",
+    "articles": "Articles",
+    "social_network": "Social Media"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "header": {
+    "position": "Desenvolvedor Front-end",
+    "projects": "Projetos",
+    "articles": "Artigos"
+  },
+  "profile": {
+    "title": "Perfil Profissional",
+    "paragraph_initial": "Sou desenvolvedor front-end especializado em React, TypeScript e Next.js, com experiência na criação de aplicações web modernas, responsivas e acessíveis. Tenho foco em entregar interfaces de alto desempenho, aplicando boas práticas de desenvolvimento, qualidade de código, testes e otimização da experiência do usuário.",
+    "paragraph_secondary": "Atuo atualmente como Tech Lead, conciliando liderança técnica com execução prática no front-end. Participo ativamente do desenvolvimento diário, revisões de código e definição de soluções para desafios técnicos. Também represento a equipe em reuniões estratégicas, comunicando avanços e detalhando implementações, especialmente em projetos com Shopify.",
+    "paragraph_third": "Meu diferencial está na organização e clareza na comunicação, qualidades que fortalecem a colaboração entre áreas e garantem um fluxo de trabalho eficiente. Busco unir técnica, empatia e propósito para entregar produtos digitais funcionais, escaláveis e de impacto real."
+  },
+  "projects": {
+    "title": "Projetos",
+    "description": "Nesta seção, apresento projetos profissionais e pessoais desenvolvidos como Desenvolvedor Front-end e Tech Lead em ambientes reais de produção. Todos foram construídos com foco em performance, SEO, acessibilidade e experiência do usuário.",
+    "professional": "Profissionais",
+    "personal": "Pessoais",
+    "code": "Ver código",
+    "preview": "Visualizar",
+    "project_professional": {
+      "sofa_description": "E-commerce especializado na venda de sofás compactados em caixas, com foco em praticidade, design e entrega descomplicada.",
+      "eco_description": "E-commerce especializado em móveis de alto padrão para áreas externas, priorizando sofisticação e durabilidade.",
+      "ld_description": "Loja virtual voltada ao público infantil, com foco em uma experiência acolhedora, intuitiva e segura.",
+      "be_description": "E-commerce de sofás e poltronas minimalistas, com foco em design limpo e experiência premium."
+    },
+    "project_personal": {
+      "fit_description": "Fit Feed é uma aplicação que permite aos usuários compartilhar rotinas de treino, dietas e conteúdos relacionados à saúde e bem-estar.",
+      "food_description": "Food Recipe é uma aplicação para explorar uma extensa coleção de receitas, proporcionando uma experiência prática e inspiradora na cozinha.",
+      "social_description": "Social Pets é uma plataforma onde donos de animais de estimação podem compartilhar fotos e interagir com outros apaixonados por pets.",
+      "john_description": "Aplicativo web de lista de tarefas desenvolvido para ajudar na organização da rotina e no gerenciamento eficiente de atividades diárias."
+    }
+  },
+  "articles": {
+    "title": "Artigos",
+    "description": "Acesse meus artigos de iniciação científica e trabalho de conclusão de curso, com foco em pesquisas na área de tecnologia e desenvolvimento de software."
+  },
+  "social_network": {
+    "title": "Redes Sociais",
+    "description": "Acompanhe meu trabalho nas redes sociais e fique por dentro de conteúdos sobre desenvolvimento, tecnologia e projetos."
+  },
+  "technologies": {
+    "title": "Tecnologias que impulsionam meu trabalho"
+  },
+  "common": {
+    "change_language": "Trocar idioma"
+  },
+  "curriculum": {
+    "title": "Baixar currículo"
+  },
+  "footer": {
+    "projects": "Projetos",
+    "articles": "Artigos",
+    "social_network": "Redes Sociais"
+  }
+}

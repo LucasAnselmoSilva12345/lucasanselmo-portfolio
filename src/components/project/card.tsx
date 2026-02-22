@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
 import { IProjectsData } from '../../utils/IProject';
 
@@ -8,6 +9,7 @@ export function Card({
   description,
   links,
 }: IProjectsData) {
+  const { t } = useTranslation();
   return (
     <div className="border border-zinc-100">
       <a className="block w-full">
@@ -31,7 +33,7 @@ export function Card({
         </div>
 
         <p className="w-full text-sm text-zinc-700 font-nunito line-clamp-2">
-          {description}
+          <p>{t(description)}</p>
         </p>
 
         <div className="w-full flex items-center gap-4">
@@ -42,7 +44,7 @@ export function Card({
               href={link.url}
               className="flex items-center gap-1 text-base font-nunito font-light underline decoration-sky-700 decoration-1 underline-offset-1"
             >
-              {link.label} <ExternalLinkIcon className="text-sky-700" />
+              {t(link.label)} <ExternalLinkIcon className="text-sky-700" />
             </a>
           ))}
         </div>

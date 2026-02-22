@@ -1,5 +1,5 @@
+import { useTranslation } from 'react-i18next';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
-
 import * as ExternalLinkButton from '../components/external-link-button';
 import { LinkedInIcon } from '../components/network-icons/linkedin';
 import { GithubIcon } from '../components/network-icons/github';
@@ -7,13 +7,16 @@ import { TwitterIcon } from '../components/network-icons/twitter';
 import { InstagramIcon } from '../components/network-icons/instagram';
 
 export function Networks() {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full mt-6 mb-2 md:max-w-3xl md:mx-auto space-y-5">
       <div>
-        <h2 className="text-lg font-nunito font-semibold">Redes Sociais</h2>
+        <h2 className="text-lg font-nunito font-semibold">
+          {t('social_network.title')}
+        </h2>
         <p className="text-sm font-nunito font-normal text-neutral-700">
-          Me acompanhe nas redes sociais e fique por dentro do meu trabalho com
-          desenvolvimento, tecnologia e muito mais!
+          {t('social_network.description')}
         </p>
       </div>
 
