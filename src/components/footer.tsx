@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import cvPdfFile from '../assets/files/CURRICULO-LUCAS-ANSELMO-DESENVOLVEDOR-FRONT-END.pdf';
+import cvPt from '../assets/files/curriculo-lucas-anselmo-moraes-da-silva.pdf';
+import cvEn from '../assets/files/lucas-anselmo-curriculum.pdf';
 import { Download } from '../assets/svg/download';
 
 interface FooterLink {
@@ -24,7 +25,11 @@ const footerLink: FooterLink[] = [
 ];
 
 export function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const language = i18n.language.startsWith('pt') ? 'pt-BR' : 'en';
+
+  const cvFile = language === 'pt-BR' ? cvPt : cvEn;
 
   return (
     <footer className="w-full mt-6 mb-0 md:max-w-3xl md:mx-auto flex justify-between">
@@ -58,8 +63,12 @@ export function Footer() {
       </div>
       <div>
         <a
-          href={cvPdfFile}
-          download="CURRICULO-LUCAS-ANSELMO-DESENVOLVEDOR-FRONT-END"
+          href={cvFile}
+          download={
+            language === 'pt-BR'
+              ? 'CURRICULO-LUCAS-ANSELMO'
+              : 'RESUME-LUCAS-ANSELMO'
+          }
           className="w-full p-4 flex items-center justify-between gap-3 text-base font-nunito font-bold rounded bg-neutral-900 text-neutral-200 transition-all duration-200 ease-in-out hover:opacity-75"
         >
           {t('curriculum.title')}
