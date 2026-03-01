@@ -5,14 +5,16 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en.json';
 import ptBR from './locales/pt-BR.json';
 
+export const resources = {
+  en: { translation: en },
+  'pt-BR': { translation: ptBR },
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: {
-      en: { translation: en },
-      'pt-BR': { translation: ptBR },
-    },
+    resources,
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
