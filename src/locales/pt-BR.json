@@ -6,9 +6,12 @@
   },
   "profile": {
     "title": "Perfil Profissional",
-    "paragraph_initial": "Sou desenvolvedor front-end especializado em React, TypeScript e Next.js, com experiência na criação de aplicações web modernas, responsivas e acessíveis. Tenho foco em entregar interfaces de alto desempenho, aplicando boas práticas de desenvolvimento, qualidade de código, testes e otimização da experiência do usuário.",
-    "paragraph_secondary": "Atuo atualmente como Tech Lead, conciliando liderança técnica com execução prática no front-end. Participo ativamente do desenvolvimento diário, revisões de código e definição de soluções para desafios técnicos. Também represento a equipe em reuniões estratégicas, comunicando avanços e detalhando implementações, especialmente em projetos com Shopify.",
-    "paragraph_third": "Meu diferencial está na organização e clareza na comunicação, qualidades que fortalecem a colaboração entre áreas e garantem um fluxo de trabalho eficiente. Busco unir técnica, empatia e propósito para entregar produtos digitais funcionais, escaláveis e de impacto real."
+    "paragraphs": [
+      "Sou desenvolvedor front-end especializado em React, TypeScript e Next.js, com mais de três anos de experiência na construção de aplicações web modernas, performáticas e orientadas a resultados. Atuo principalmente em projetos de e-commerce, desenvolvendo soluções escaláveis, responsivas e acessíveis, com foco em performance, experiência do usuário e impacto direto no negócio.",
+      "Embora minha principal atuação seja como desenvolvedor front-end hands-on, também exerço o papel de Tech Lead, conciliando liderança técnica com execução prática. Participo ativamente do desenvolvimento diário, arquitetura de soluções, code reviews e definição de padrões, garantindo qualidade, consistência e escalabilidade nas entregas.",
+      "Além disso, sou responsável pela organização das sprints, priorização de demandas, definição de processos e alinhamento técnico com stakeholders. Em projetos Shopify, atuo tanto na implementação quanto na tomada de decisões estratégicas relacionadas a performance, experiência de compra e evolução da plataforma.",
+      "Meu diferencial está na combinação entre profundidade técnica e visão de produto. Busco sempre equilibrar excelência em código, clareza na comunicação e colaboração entre áreas, fortalecendo o time e garantindo entregas eficientes, sustentáveis e alinhadas aos objetivos do negócio."
+    ]
   },
   "projects": {
     "title": "Projetos",

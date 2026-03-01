@@ -6,9 +6,12 @@
   },
   "profile": {
     "title": "Professional Profile",
-    "paragraph_initial": "I am a Front-end Developer specialized in React, TypeScript, and Next.js, with experience building modern, responsive, and accessible web applications. I focus on delivering high-performance interfaces by applying best development practices, clean code principles, testing strategies, and user experience optimization.",
-    "paragraph_secondary": "I currently work as a Tech Lead, combining technical leadership with hands-on front-end development. I actively contribute to daily coding, code reviews, and architectural decision-making. I also represent the team in strategic meetings, communicate progress clearly, and explain technical implementations — especially in Shopify-based projects.",
-    "paragraph_third": "My key strengths are organization and clear communication, which enhance cross-functional collaboration and ensure efficient workflows. I strive to combine technical excellence, empathy, and purpose to deliver scalable, impactful digital products."
+    "paragraphs": [
+      "I am a Front-End Developer specialized in React, TypeScript, and Next.js, with over three years of experience building modern, high-performance, and results-driven web applications. I primarily work on e-commerce projects, developing scalable, responsive, and accessible solutions with a strong focus on performance, user experience, and measurable business impact.",
+      "While my core role is hands-on front-end development, I also serve as a Tech Lead, balancing technical leadership with active execution. I am deeply involved in day-to-day development, solution architecture, code reviews, and the definition of technical standards, ensuring quality, consistency, and scalability across all deliverables.",
+      "In addition, I am responsible for sprint organization, task prioritization, process definition, and technical alignment with stakeholders. In Shopify projects, I contribute not only through implementation but also through strategic decision-making related to performance optimization, conversion experience, and platform evolution.",
+      "My key strength lies in combining strong technical expertise with a product-oriented mindset. I consistently strive to balance code excellence, clear communication, and cross-functional collaboration, empowering the team and delivering efficient, sustainable solutions aligned with business goals."
+    ]
   },
   "projects": {
     "title": "Projects",
