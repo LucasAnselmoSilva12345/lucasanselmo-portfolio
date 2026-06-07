@@ -2,7 +2,7 @@
   "header": {
     "position": "Desenvolvedor Front-end",
     "projects": "Projetos",
-    "articles": "Artigos"
+    "carrer": "Carreira"
   },
   "profile": {
     "title": "Perfil Profissional",
@@ -31,6 +31,27 @@
       "food_description": "Food Recipe é uma aplicação para explorar uma extensa coleção de receitas, proporcionando uma experiência prática e inspiradora na cozinha.",
       "social_description": "Social Pets é uma plataforma onde donos de animais de estimação podem compartilhar fotos e interagir com outros apaixonados por pets.",
       "john_description": "Aplicativo web de lista de tarefas desenvolvido para ajudar na organização da rotina e no gerenciamento eficiente de atividades diárias."
+    }
+  },
+  "career": {
+    "title": "Carreira Profissional",
+    "description": "Conheça minha trajetória profissional e como desenvolvi habilidades em desenvolvimento web, decisões técnica e arquitetura de software ao longo dos anos.",
+    "experiences": {
+      "frontend_developer_cpqd": {
+        "title": "Desenvolvedor Front-end",
+        "location": "Tempo Integral • Híbrido • Campinas SP",
+        "description": "Desenvolvimento de aplicações para projetos voltados aos setores de telecomunicações e comunicação digital. Atuação na implementação de interfaces modernas, integração com APIs e construção de soluções B2B voltadas para pesquisa, inovação e transformação digital. Colaboração com equipes multidisciplinares na evolução de plataformas, aplicação de boas práticas de desenvolvimento e entrega de produtos alinhados às necessidades dos clientes."
+      },
+      "frontend_developer_ecommerce": {
+        "title": "Desenvolvedor Front-end & Analista Programador",
+        "location": "Tempo Integral • Presencial • Salto SP",
+        "description": "Responsável pelo desenvolvimento e evolução da plataforma de e-commerce, implementando melhorias de interface, experiência do usuário e desempenho. Atuação em estratégias de SEO técnico, otimização de Core Web Vitals, testes A/B e integração entre sistemas ERP e Shopify. Participação na definição de padrões de desenvolvimento, revisão de código e processos ágeis, contribuindo para o crescimento da operação digital e para a melhoria contínua dos resultados do negócio."
+      },
+      "intern": {
+        "title": "Estagiário em Desenvolvimento de Software Web",
+        "location": "Estágio • Remoto • Salto SP",
+        "description": "Desenvolvimento de interfaces web para portais e periódicos acadêmicos utilizando Vue.js, JavaScript, HTML, CSS e PHP. Participação na implementação de novas funcionalidades, testes automatizados e processos de integração contínua, contribuindo para a evolução de plataformas utilizadas por instituições de ensino e pesquisa no Brasil e no exterior."
+      }
     }
   },
   "articles": {

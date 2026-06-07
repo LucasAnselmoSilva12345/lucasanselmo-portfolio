@@ -2,7 +2,7 @@
   "header": {
     "position": "Front-end Developer",
     "projects": "Projects",
-    "articles": "Articles"
+    "carrer": "Career"
   },
   "profile": {
     "title": "Professional Profile",
@@ -31,6 +31,27 @@
       "food_description": "Food Recipe is an application designed to explore a wide collection of recipes, providing a practical and inspiring cooking experience.",
       "social_description": "Social Pets is a platform where pet owners can share photos and interact with other pet lovers.",
       "john_description": "A web-based task management application designed to help users organize their routines and efficiently manage daily activities."
+    }
+  },
+  "career": {
+    "title": "Professional Career",
+    "description": "Explore my professional journey and discover how I developed expertise in web development, technical decisions, and software architecture over the years.",
+    "experiences": {
+      "frontend_developer_cpqd": {
+        "title": "Front-end Developer",
+        "location": "Full-Time • Hybrid • Campinas SP",
+        "description": "Development of web applications for telecommunications and digital communication projects. Responsible for implementing modern user interfaces, integrating APIs, and building B2B solutions focused on research, innovation, and digital transformation. Collaborating with multidisciplinary teams to evolve platforms, apply development best practices, and deliver products aligned with customer needs."
+      },
+      "frontend_developer_ecommerce": {
+        "title": "Front-end Developer & Software Analyst",
+        "location": "Full-Time • On-site • Salto SP",
+        "description": "Responsible for the development and continuous improvement of the company's e-commerce platform, delivering enhancements in user experience, interface design, and performance. Worked on technical SEO strategies, Core Web Vitals optimization, A/B testing initiatives, and ERP-Shopify integrations. Contributed to development standards, code reviews, and agile processes, supporting business growth and operational efficiency."
+      },
+      "intern": {
+        "title": "Web Software Development Intern",
+        "location": "Internship • Remote • Salto SP",
+        "description": "Developed web interfaces for academic portals and journal platforms using Vue.js, JavaScript, HTML, CSS, and PHP. Participated in feature implementation, automated testing, and continuous integration processes, contributing to platforms used by educational and research institutions in Brazil and abroad."
+      }
     }
   },
   "articles": {
