@@ -1,6 +1,6 @@
-import { useTranslation } from 'react-i18next';
-import { v4 as uuidv4 } from 'uuid';
-import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import { v4 as uuidv4 } from "uuid";
+import { Link } from "react-router-dom";
 
 interface NavLink {
   id: string;
@@ -11,13 +11,13 @@ interface NavLink {
 const navLinks: NavLink[] = [
   {
     id: uuidv4(),
-    to: '/projects',
-    label: 'header.projects',
+    to: "/career",
+    label: "header.carrer",
   },
   {
     id: uuidv4(),
-    to: '/articles',
-    label: 'header.articles',
+    to: "/projects",
+    label: "header.projects",
   },
 ];
 
